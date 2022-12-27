@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class layanan(models.Model):
+    platfrom = models.CharField(max_length=50)
+
+    berupa = models.CharField(max_length=50)
